@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samuele Filincieri</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">
+        <img src="./imgs/samuelefilincieriLogo.png" alt="" /></a>
+    </div>
+    <ul class="navbar" id="navbar">
+      <li><a href="index.html#about-me">About me</a></li>
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#feedbacks">Feedbacks</a></li>
+      <li><a href="index.html#contact-me">Contact me</a></li>
+    </ul>
+    <div class="social">
+      <a href="https://github.com/SamueleItsRizzoli" target="_blank">GitHub <img src="./imgs/github.png" alt=""></a>
+    </div>
+    <div id="btn">
+      <div id="btn-menu">
+        <span id="span1"></span>
+        <span id="span2"></span>
+        <span id="span3"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+
+  <header>
+    <div class="header-text">
+      <p>Welcome to my portfolio</p>
+      <h1>I'm <span class="imText"></span></h1>
+      <a href="#">Download my CV <img src="./imgs/DownloadIcon.png" alt="" /></a>
+    </div>
+    <div class="header-image">
+      <img src="./imgs/fotoProfilo.png" alt="" />
+    </div>
+  </header>
+
+  <!-- Horizontal Lenguages -->
+
+  <div class="horizontal-leng">
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>JavaScript</p>
+    <p>JQuey</p>
+    <p>PHP</p>
+    <p>MySQL</p>
+    <p>Java</p>
+    <p>React</p>
+    <p>React Native</p>
+
+    <p>C#</p>
+  </div>
+  <!-- About me -->
+
+  <div class="about-me" id="about-me">
+    <div class="about-me-image">
+      <img src="./imgs/fotoProfilo.png" alt="" />
+    </div>
+    <div class="about-me-text">
+      <h6>about me</h6>
+      <p>
+        Ciao, sono Samuele Filincieri, uno studente di 19 anni con una
+        fervente passione per l'informatica. Nel tempo libero, mi dedico alla
+        creazione di siti web, applicazioni e videogiochi. Attraverso linee di
+        codice e design, cerco di trasformare idee in esperienze digitali
+        coinvolgenti. La mia vita ruota attorno alla curiosità e alla sfida di
+        innovare nel mondo della tecnologia. Collaborare con altri
+        appassionati è il mio motore, poiché credo che le idee migliori
+        emergano dalla condivisione e dalla diversità di prospettive. Unisciti
+        a me in questo viaggio digitale, dove la creatività e la
+        programmazione si fondono per dare vita a nuove possibilità nel mondo
+        digitale.
+      </p>
+    </div>
+  </div>
+
+  <!-- Services -->
+
+  <div class="services" id="services">
+    <h6>Services</h6>
+    <div class="service">
+      <div class="service-card">
+        <div class="service-card-image">
+          <img src="./imgs/website.png" alt="" />
+        </div>
+        <h6>Website</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est
+          nulla reprehenderit delectus nihil tempora blanditiis, neque fuga
+          dicta dolore aliquid voluptatem temporibus iusto omnis, dolorum ad.
+          Sit, nemo doloribus.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-card-image">
+          <img src="./imgs/website.png" alt="" />
+        </div>
+        <h6>Android Mobile App</h6>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam est
+          nulla reprehenderit delectus nihil tempora blanditiis, neque fuga
+          dicta dolore aliquid voluptatem temporibus iusto omnis, dolorum ad.
+          Sit, nemo doloribus.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects -->
+
+  <div class="projects" id="projects">
+    <h6>Projects</h6>
+    <div class="project">
+      <div class="project-card"></div>
+    </div>
+  </div>
+
+  <!-- Feedback -->
+  <div class="feedbacks" id="feedbacks">
+    <h6>Feedback</h6>
+    <div class="feedback">
+      <div class="feedback-card">
+        <div class="feedback-card-image">
+          <img src="./imgs/StarFull.png" alt="" />
+          <img src="./imgs/StarFull.png" alt="" />
+          <img src="./imgs/StarFull.png" alt="" />
+          <img src="./imgs/StarFull.png" alt="" />
+          <img src="./imgs/StarFull.png" alt="" />
+        </div>
+        <h6>Federico</h6>
+        <p>
+          "Collaborare con Samuele per la creazione del mio sito è stata un'esperienza eccezionale. La sua competenza e
+          prontezza nel rispondere alle richieste hanno reso il processo fluido e piacevole. Consiglio vivamente Samuele
+          per la sua professionalità e dedizione"
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Contact me -->
+
+  <div class="contact-me" id="contact-me">
+    <h6>Contact me</h6>
+    <form action="index.html" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" placeholder="Insert name ..." required />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Insert email ..." required />
+      <label for="message">Message:</label>
+      <textarea name="message" id="message" cols="30" rows="10" required placeholder="Insert message ..."></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="logo">
+      <a href="index.html"><img src="./imgs/samuelefilincieriLogo.png" alt="" /></a>
+    </div>
+    <div class="copy">
+      <a href="index.html">samuelefilincieri.it - &copy;copyright 2023</a>
+    </div>
+  </footer>
+
+  <!-- JS  -->
+  <script src="./js/script.js"></script>
+  <!-- Typed CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Typed Script-->
+  <script>
+    var typed = new Typed(".imText", {
+      strings: [
+        "Samuele Filincieri",
+        "Web Developer",
+        "Android Mobile Developer",
+      ],
+      typeSpeed: 50,
+      backSpeed: 50,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
