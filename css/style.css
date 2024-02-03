@@ -201,6 +201,10 @@ nav #btn span {
   flex-direction: column;
 }
 
+.youtube .youtube-container .youtube-card:hover {
+cursor:pointer;
+}
+
 .youtube .youtube-container .youtube-card img {
   width: 80%;
   height: 50%;
