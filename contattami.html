@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuele Filincieri - Contattami</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dokdo&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/423189bc8a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="./img/samuelefilincieriLogo.png" alt="" /></a>
+        </div>
+        <ul class="navbar" id="navbar">
+            <li><a href="#">YouTube</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contattami.html">Contattami</a></li>
+        </ul>
+        <div class="social">
+            <a href="#" target="_blank">GitHub <i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+        </div>
+        <div id="btn">
+            <div id="btn-menu">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Form -->
+    <form action="contattami.html" method="post" id="form-contattami" class="form-contattami">
+
+        <div class="info" id="info">
+
+            <div class="info-nome" id="info-nome">
+                <label for="nome">Name:</label>
+                <input type="text" name="nome" id="nome" required placeholder="Name ..">
+            </div>
+
+            <div class="info-cognome" id="info-cognome">
+                <label for="cognome">Last name:</label>
+                <input type="text" name="cognome" id="cognome" required placeholder="Last name ..">
+            </div>
+        </div>
+
+
+        <div class="email" id="email">
+
+            <div class="email-row" id="email-row">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required placeholder="Email ..">
+            </div>
+        </div>
+
+        <div class="message" id="message">
+
+            <div class="message-row" id="mesage-row">
+                <label for="messaggio">Messaggio:</label>
+                <textarea name="messaggio" id="messaggio" cols="30" rows="10" required
+                    placeholder="Message ..."></textarea>
+            </div>
+        </div>
+
+        <div class="submit" id="submit">
+
+            <div class="submit-row" id="submit-row">
+               <input type="submit" value="Send" id="submitBTN">
+            </div>
+        </div>
+    </form>
+
+    <!-- Jqury And JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

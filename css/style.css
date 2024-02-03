@@ -1,0 +1,1593 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Dokdo", system-ui;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  background: #191919;
+}
+
+/* All */
+a,
+p,
+h1 {
+  color: white !important;
+}
+
+a,
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+#btn {
+  display: none;
+}
+
+/* Navbar */
+nav {
+  width: 100%;
+  height: 10vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav .logo {
+  width: 10%;
+  background: transparent;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+nav .logo a {
+  height: 100%;
+  color: transparent;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+nav .logo img {
+  height: 50%;
+}
+
+nav .navbar {
+  display: block;
+  width: 30%;
+  height: 100%;
+  background: transparent;
+}
+
+nav .navbar li {
+  list-style-type: none;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  margin-top: 5%;
+}
+
+nav .navbar li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav .social {
+  width: 10%;
+  background: transparent;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .social a {
+  color: white;
+  text-decoration: none;
+  /*   background: #0077ff; */
+  padding: 5px 10px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  border: 1px solid white;
+}
+
+nav .social i {
+  height: 80%;
+  margin-left: 15px;
+}
+
+nav #btn {
+  display: none;
+  background: transparent;
+  height: 100%;
+  width: 5%;
+}
+
+nav #btn #btn-menu {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav #btn span {
+  width: 80%;
+  height: 2%;
+  background: #191919;
+  margin: 5px;
+}
+
+
+
+/* Youtube div */
+
+
+
+/* Youtube All */
+
+.youtube {
+  width: 90vw;
+  height: 50vh;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.youtube .youtube-text {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.youtube .youtube-seeAll:hover {
+  cursor: pointer;
+}
+
+.youtube .youtube-text h1 {
+  color: white;
+}
+
+.youtube .youtube-container {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.youtube .youtube-container .youtube-card {
+  background: black;
+  width: 20%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.youtube .youtube-container .youtube-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* Youtube All */
+.youtubeAll {
+  width: 90vw;
+  height: auto;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: auto;
+}
+
+.youtubeAll .youtube-text {
+  height: 10vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.youtubeAll .youtube-seeAll:hover {
+  cursor: pointer;
+}
+
+.youtubeAll .youtube-text h1 {
+  color: white;
+}
+
+.youtubeAll .youtube-containerAll {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.youtubeAll .youtube-containerAll .youtube-card {
+  background: black;
+  width: 20%;
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.youtubeAll .youtube-containerAll .youtube-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* articoli div */
+
+
+
+/* articoli Normal */
+
+.articoli {
+  width: 90vw;
+  height: 50vh;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.articoli .articoli-text {
+  height: 10vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.articoli .articoli-seeAll:hover {
+  cursor: pointer;
+}
+
+.articoli .articoli-text h1 {
+  color: white;
+}
+
+.articoli .articoli-container {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.articoli .articoli-container .articoli-card {
+  background: black;
+  width: 20%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+.articoli .articoli-container .articoli-card:hover {
+cursor: pointer;}
+.articoli .articoli-container .articoli-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* Youtube All */
+.articoliAll {
+  width: 90vw;
+  height: auto;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.articoliAll .articoli-text {
+  height: 10vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.articoliAll .articoli-seeAll:hover {
+  cursor: pointer;
+}
+
+.articoliAll .articoli-text h1 {
+  color: white;
+}
+
+.articoliAll .articoli-containerAll {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.articoliAll .articoli-containerAll .articoli-card {
+  background: black;
+  width: 20%;
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.articoliAll .articoli-containerAll .articoli-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+
+
+
+.articoli-card-disatcive{
+  opacity: 0.5;
+  background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio - Home */
+
+.home {
+  background: transparent;
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+}
+
+.home .home-left {
+  background: transparent;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+}
+
+.home .home-right {
+  background: transparent;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.home .home-right p {
+  width: 80%;
+  text-align: center;
+
+}
+
+.home .home-right a {
+  text-decoration: none;
+  padding: 5px 5px;
+  background: white;
+  color: #191919 !important;
+  border-radius: 5px;
+}
+
+/* Skills */
+.skills {
+  background: transparent;
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.skills .skills-text {
+  background: transparent;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills .skill {
+  background: transparent;
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.skills .skill i {
+  color: white;
+}
+
+
+.skills .skill.html .progress {
+  background: white;
+  width: 90%;
+  height: 10%;
+}
+
+.skills .skill.css .progress {
+  background: white;
+  width: 85%;
+  height: 10%;
+}
+
+.skills .skill.js .progress {
+  background: white;
+  width: 70%;
+  height: 10%;
+}
+
+/* Services */
+
+.services {
+  height: 100vh;
+  width: 90%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.services .service-text {
+  background: transparent;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.services .service-container {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.services .service-container .service-card {
+  background: transparent;
+  height: 65%;
+  width: 25%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.services .service-container .service-card img {
+  object-fit: cover;
+}
+
+.services .service-container .service-card p {
+  text-align: center;
+}
+
+
+
+
+
+
+/* Form */
+
+
+
+.form-contattami{
+  background: transparent;
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.form-contattami .info{
+  background: transparent;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.form-contattami .info .info-nome{
+  background: transparent;
+  height: 50%;
+  width: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+ /*  border: 1px solid white;
+  border-radius: 5px; */
+  margin-left: 20px;
+}
+
+.form-contattami .info .info-nome label{
+  color: white;
+  
+}
+
+.form-contattami .info .info-nome input{
+  color: #191919 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+.form-contattami .info .info-cognome{
+  background: transparent;
+  height: 50%;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+/*   border: 1px solid white;
+  border-radius: 5px; */
+  margin-left: 20px;
+}
+
+.form-contattami .info .info-cognome label{
+  color: white;
+  
+}
+
+.form-contattami .info .info-cognome input{
+  color: #191919 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+.form-contattami .email {
+  background: transparent;
+  height: 20%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.form-contattami .email .email-row{
+  background: transparent;
+  height: 50%;
+  width: 20%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.form-contattami .email .email-row label{
+  color: white;
+  
+}
+
+.form-contattami .email .email-row input {
+  color: #191919 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+
+
+.form-contattami .message {
+  background: transparent;
+  height: 55%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-contattami .message .message-row{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.form-contattami .message .message-row label{
+  color: white;
+  
+}
+
+.form-contattami .message .message-row textarea{
+  color: #191919 !important;
+  padding: 5px 10px;
+  border-radius: 5px;
+  resize: vertical;
+}
+
+
+
+
+
+
+.form-contattami .submit {
+  background: transparent;
+  height: 5%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-contattami .submit .submit-row{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+
+.form-contattami .submit .submit-row input{
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #191919;
+}
+
+
+/* Footer */
+
+footer{
+  width: 100vw;
+  height: 10vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer .copy{
+  width: 50%;
+  height: 10vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+footer .copy p{
+  color: white !important;
+}
+footer .gdpr{
+  width: 50%;
+  height: 10vh;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+footer .gdpr a{
+color: white !important;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* 
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+
+
+*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Dokdo", system-ui;
+    font-weight: bold;
+    overflow-x: hidden;
+  }
+
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  html {
+    background: #191919;
+  }
+
+  /* All */
+  a,
+  p,
+  h1 {
+    color: white;
+  }
+
+  a,
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  #btn {
+    display: block;
+    margin-left: 180px;
+  }
+
+
+  /* Navbar */
+  nav {
+    width: 100%;
+    height: 10vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  nav .logo {
+    width: 20%;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  nav .logo a {
+    height: 100%;
+    color: transparent;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  nav .logo img {
+    height: 50%;
+  }
+
+  nav .navbar {
+    width: 100%;
+    height: 100vh;
+    background: #191919;
+    margin-top: 90vh;
+    /* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+    display: none;
+    z-index: 100;
+    left: 0;
+    position: absolute;
+    border-bottom: 1px solid white;
+  }
+
+  nav .navbar li {
+    list-style-type: none;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 33.3%;
+  }
+
+  nav .navbar li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav .social {
+    width: 30%;
+    background: transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav .social a {
+    color: white;
+    text-decoration: none;
+    /*   background: #0077ff; */
+    padding: 5px 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    border: 1px solid white;
+  }
+
+  nav #btn {
+    display: block;
+    background: transparent;
+    height: 10vh;
+    width: 15%;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+  }
+
+  nav #btn #btn-menu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  nav #btn span {
+    width: 80%;
+    height: 2%;
+    background: white;
+    margin: 5px;
+    transition: .5s;
+  }
+
+  nav #btn .span1-open {
+    transform: rotate(50deg);
+    position: relative;
+    margin-right: 15px;
+    transition: 0.5s;
+    background: white;
+  }
+
+  nav #btn .span2-open {
+    display: none;
+    transition: 0.5s;
+  }
+
+  nav #btn .span3-open {
+    transform: rotate(-50deg);
+    position: relative;
+    margin-right: 15px;
+    margin-top: -10px;
+    transition: 0.5s;
+    background: white;
+  }
+
+
+
+
+
+
+  /* Youtube div */
+
+
+
+/* Youtube All */
+
+.youtube {
+  width: 90vw;
+  height: 50vh;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.youtube .youtube-text {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.youtube .youtube-seeAll:hover {
+  cursor: pointer;
+}
+
+.youtube .youtube-text h1 {
+  color: white;
+}
+
+.youtube .youtube-container {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.youtube .youtube-container .youtube-card {
+  background: black;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.youtube .youtube-container .youtube-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* Youtube All */
+.youtubeAll {
+  width: 90vw;
+  height: auto;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: auto;
+}
+
+.youtubeAll .youtube-text {
+  height: 10vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.youtubeAll .youtube-seeAll:hover {
+  cursor: pointer;
+}
+
+.youtubeAll .youtube-text h1 {
+  color: white;
+}
+
+.youtubeAll .youtube-containerAll {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.youtubeAll .youtube-containerAll .youtube-card {
+  background: black;
+  width: 80%;
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.youtubeAll .youtube-containerAll .youtube-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* articoli div */
+
+
+
+/* articoli Normal */
+
+.articoli {
+  width: 90vw;
+  height: 50vh;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.articoli .articoli-text {
+  height: 10vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.articoli .articoli-seeAll:hover {
+  cursor: pointer;
+}
+
+.articoli .articoli-text h1 {
+  color: white;
+}
+
+.articoli .articoli-container {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.articoli .articoli-container .articoli-card {
+  background: black;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.articoli .articoli-container .articoli-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+/* Youtube All */
+.articoliAll {
+  width: 90vw;
+  height: auto;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid white;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.articoliAll .articoli-text {
+  height: 10vh;
+  background: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.articoliAll .articoli-seeAll:hover {
+  cursor: pointer;
+}
+
+.articoliAll .articoli-text h1 {
+  color: white;
+}
+
+.articoliAll .articoli-containerAll {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.articoliAll .articoli-containerAll .articoli-card {
+  background: black;
+  width: 80%;
+  height: 33vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.articoliAll .articoli-containerAll .articoli-card img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Portfolio - Home */
+
+.home {
+  background: transparent;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+}
+
+.home .home-left {
+  background: transparent;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.home .home-left img{
+  height: 60%;
+  clip-path: circle(50%);
+}
+
+.home .home-right {
+  background: transparent;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.home .home-right p {
+  width: 95%;
+  text-align: center;
+  font-size: 15px;
+
+}
+
+.home .home-right a {
+  text-decoration: none;
+  padding: 5px 5px;
+  background:white;
+  color: #191919 !important;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills */
+.skills {
+  background: transparent;
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.skills .skills-text {
+  background: transparent;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills .skill {
+  background: transparent;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.skills .skill i {
+  color: white;
+  font-size: 10px;
+}
+
+
+.skills .skill.html .progress {
+  background: white;
+  width: 90%;
+  height: 10%;
+}
+
+.skills .skill.css .progress {
+  background: white;
+  width: 85%;
+  height: 10%;
+}
+
+.skills .skill.js .progress {
+  background: white;
+  width: 70%;
+  height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Services */
+
+.services {
+  height: auto;
+  width: 90%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.services .service-text {
+  background: transparent;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.services .service-container {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.services .service-container .service-card {
+  background: transparent;
+  height: 80%;
+  width: 80%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.services .service-container .service-card img {
+  object-fit: cover;
+}
+
+.services .service-container .service-card p {
+  text-align: center;
+}
+
+
+
+
+
+
+
+}
