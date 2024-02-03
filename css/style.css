@@ -459,6 +459,7 @@ cursor: pointer;}
 .articoli-card-disatcive{
   opacity: 0.5;
   background: red;
+  cursor:default;
 }
 
 
